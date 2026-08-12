@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Head Section -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Malak Mahmoud's personal portfolio page">
+    <title>Malak Mahmoud | My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h2>Malak Mahmoud Nabawy</h2>
+
+        <nav>
+            <a href="#about">About</a> &nbsp;
+            <a href="#skills">Skills</a> &nbsp;
+            <a href="#courses">Courses</a> &nbsp;
+            <a href="#gallery">Gallery</a> &nbsp;
+            <a href="#contact">Contact</a> &nbsp;
+            <a href="#faq">FAQ</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+
+        <!-- Hero / About Section -->
+        <section id="about">
+            <h1>Welcome to My Portfolio</h1>
+
+            <p>
+                Hello! My name is <strong>Malak Mahmoud</strong>.
+                I am a student interested in programming and web development.
+                <em>I enjoy learning new technologies and improving my skills.</em>
+            </p>
+
+            <img src="c:\Users\hp\Downloads\WhatsApp Image 2026-08-12 at 3.36.30 AM.jpeg" alt="Profile picture" 
+            width="280" height="250">
+
+            <p>
+                I am currently learning <mark>Web Development</mark>
+                and building my programming skills.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <p>Some of my technical skills include:</p>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Git and GitHub</li>
+            </ul>
+
+            <h3>My Learning Journey</h3>
+
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn JavaScript</li>
+                <li>Build Web Projects</li>
+            </ol>
+
+            <p>
+                I believe that <strong>practice</strong> is important
+                for improving programming skills.
+                <br>
+                Learning step by step makes the process <em>easier</em>.
+                <br>
+                My goal is to become a <mark>professional developer</mark>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Courses Table -->
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <table border="1">
+                <caption>Courses I Have Studied</caption>
+
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>2 Months</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Python</td>
+                        <td>3 Months</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cybersecurity</td>
+                        <td>1 Month</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Web Development</td>
+                        <td>4 Months</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">CSS and JavaScript - In Progress</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">More courses will be added soon.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>My Gallery</h2>
+
+            <figure>
+                <img src="c:\Users\hp\Downloads\WhatsApp Image 2026-08-12 at 3.59.12 AM.jpeg" 
+                alt="Cybersecurity monitoring dashboard" width="400">
+                <figcaption> <b>Cybersecurity </b> </figcaption>
+            </figure>
+
+            <figure>
+                <img src="c:\Users\hp\Downloads\WhatsApp Image 2026-08-12 at 4.06.40 AM.jpeg" 
+                alt="Web development project" width="400">
+                <figcaption> <b>Web Development</b></figcaption>
+            </figure>
+
+            <figure>
+                <img src="c:\Users\hp\Downloads\WhatsApp Image 2026-08-12 at 4.13.21 AM.jpeg"
+                 alt="Computer network topology with routers and switches" width="400">
+                <figcaption> <b>Computer Networking</b> </figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+                <br><br>
+
+                <label for="birthdate">Date of Birth:</label>
+                <input
+                    type="date"
+                    id="birthdate"
+                    name="birthdate"
+                >
+                <br><br>
+
+                <label for="topic">Subject:</label>
+                <select id="topic" name="topic">
+                    <option value="general">General Inquiry</option>
+                    <option value="project">Project</option>
+                    <option value="training">Training</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <p>Preferred Contact Method:</p>
+
+                <input
+                    type="radio"
+                    id="contact-email"
+                    name="contact-method"
+                    value="email"
+                    checked
+                >
+                <label for="contact-email">Email</label>
+
+                <input
+                    type="radio"
+                    id="contact-phone"
+                    name="contact-method"
+                    value="phone"
+                >
+                <label for="contact-phone">Phone</label>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="30"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <br><br>
+
+                <input
+                    type="checkbox"
+                    id="terms"
+                    name="terms"
+                    required
+                >
+                <label for="terms">I agree to the terms and conditions.</label>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+<details>
+    <summary>What technologies and programming languages do you use?</summary>
+    <p>I work with HTML, CSS, JavaScript, Python, C++, and GitHub.</p>
+</details>
+
+<details>
+    <summary>What type of projects have you worked on?</summary>
+    <p>I have worked on web development, programming, networking, cybersecurity, and IoT projects.</p>
+</details>
+
+<details>
+    <summary>What are your goals in web development?</summary>
+    <p>My goal is to improve my development skills, build useful projects, and become a professional software developer.</p>
+</details>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <address>
+            Email:
+            <a href="mailto:malakmahmoud10357@gmail.com">malakmahmoud10357@gmail.com</a>
+            <br>
+            Cairo, Egypt
+        </address>
+
+        <p>&copy; 2026 Malak Mahmoud portfolio. All rights reserved.</p>
+
+        <p>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            &nbsp;|&nbsp;
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
