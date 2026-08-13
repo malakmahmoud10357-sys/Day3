@@ -1,0 +1,144 @@
+HTML – Quick Cheat Sheet
+
+What is HTML?
+
+HTML = HyperText Markup Language
+
+HTML is a markup language used to create the structure and content of web pages.
+
+HTML → Structure
+CSS → Design
+JavaScript → Behavior
+
+Most Important Concepts
+
+1. HTML Structure
+
+- "<!DOCTYPE html>" → Defines the document type.
+- "<html>" → Root element of the page.
+- "<head>" → Contains information about the page.
+- "<body>" → Contains the visible content of the page.
+
+2. Elements & Tags
+
+HTML is built using elements such as:
+
+- "<p>" → Paragraph
+- "<h1>" → Heading
+- "<img>" → Image
+- "<form>" → Form
+
+Example:
+
+"<p>Hello World</p>"
+
+3. Attributes
+
+Attributes provide extra information about HTML elements.
+
+Important examples:
+
+- "href" → Specifies the link destination.
+- "src" → Specifies the source of an image or resource.
+- "alt" → Alternative text for an image.
+- "id" → Identifies a specific element.
+- "class" → Groups elements.
+- "name" → Identifies form data.
+- "value" → Specifies a value.
+- "placeholder" → Displays a hint inside an input.
+- "readonly" → Makes an input read-only.
+
+4. Semantic HTML
+
+Semantic tags describe the meaning and structure of the content.
+
+- "<header>" → Header
+- "<nav>" → Navigation
+- "<main>" → Main content
+- "<section>" → Section
+- "<article>" → Independent content
+- "<aside>" → Side/secondary content
+- "<footer>" → Footer
+
+5. Forms
+
+Forms are used to collect user input.
+
+- "<form>" → Form
+- "<input>" → Input field
+- "<label>" → Label for an input
+- "<select>" → Dropdown list
+- "<option>" → Option inside a dropdown
+- "<textarea>" → Multi-line text input
+- "<button>" → Clickable button
+
+6. DOM
+
+DOM = Document Object Model
+
+It represents the HTML page as a tree structure of elements (nodes).
+
+JavaScript can use the DOM to access and modify HTML elements.
+
+Most Common HTML Tags
+
+Text:
+
+- "<h1>" – "<h6>" → Headings
+- "<p>" → Paragraph
+- "<strong>" → Important/bold text
+- "<em>" → Emphasized/italic text
+- "<br>" → Line break
+- "<hr>" → Horizontal line
+
+Links & Lists:
+
+- "<a>" → Link
+- "<ul>" → Unordered list
+- "<ol>" → Ordered list
+- "<li>" → List item
+
+Images & Media:
+
+- "<img>" → Image
+- "<audio>" → Audio
+- "<video>" → Video
+- "<iframe>" → Embedded content
+
+Structure:
+
+- "<div>" → General container
+- "<span>" → Inline container
+- "<header>" → Header
+- "<nav>" → Navigation
+- "<main>" → Main content
+- "<section>" → Section
+- "<article>" → Article/content
+- "<aside>" → Side content
+- "<footer>" → Footer
+
+Tables:
+
+- "<table>" → Table
+- "<tr>" → Table row
+- "<th>" → Table header
+- "<td>" → Table data
+
+Forms:
+
+- "<form>" → Form
+- "<input>" → Input
+- "<label>" → Label
+- "<select>" → Dropdown
+- "<option>" → Option
+- "<textarea>" → Multi-line input
+- "<button>" → Button
+
+Summary:
+HTML = Structure
+CSS = Style
+JavaScript = Interaction
+
+The most important things to understand in HTML are:
+
+Tags + Elements + Attributes + Page Structure + Semantic HTML + Forms + DOM
